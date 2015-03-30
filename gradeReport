@@ -1,0 +1,40 @@
+# Grade
+package jrJava.grade;
+
+public class GradeReport {
+
+
+	public static void main(String[] args) throws Exception{
+		
+		System.out.println("Enter your grade:");
+		
+		char grade = (char) System.in.read();
+		
+		if(grade=='A'){
+			System.out.println("Awesome!!!!GURL DOING SO FREAKING WELL!");
+					
+		}
+		else if(grade=='B'){
+			System.out.println("BITCH SETTLE DOWN!");
+			
+		}
+		else if(grade=='C'){
+			System.out.println("CALM YOUR TITS!!!");
+			
+		}
+		else if(grade=='D'){
+			System.out.println("DUMBASS");
+			
+		}
+		else if(grade=='F'){
+			System.out.println("FAQ HOW DAFAQ?!");
+			
+		}
+		else{
+			System.out.println("Dammit...RUN AGAIN!!");
+		}
+		
+
+	}
+
+}
